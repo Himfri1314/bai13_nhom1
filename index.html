@@ -151,9 +151,14 @@ Trong khi đó, CSS được sử dụng để điều chỉnh cách mà các ph
 </div>
 <img src="vandung2.png">
      <style>
-    .small-img {
-      width: 30px;      /* chiều rộng */
-      height: auto;      /* tự điều chỉnh chiều cao tỉ lệ */
+    /* CSS để thu nhỏ hình ảnh */
+    .thumbnail {
+      width: 50px;    /* chiều rộng hình ảnh */
+      height: auto;    /* tự động giữ tỉ lệ */
+      border: 1px solid #ccc; /* thêm viền tùy chọn */
+      border-radius: 8px;     /* bo góc hình ảnh */
+      display: block;
+      margin: 20px 0;
     }
   </style>
 <p>< !DOCTYPE html><br>
@@ -214,6 +219,7 @@ a:hover {<br>
 p {<br>
     margin: 10px 0;<br>
 }<br>
+
 
 
 
